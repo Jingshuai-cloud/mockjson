@@ -1,0 +1,11 @@
+{
+"users" :[
+{"userName"	: "jingshuai", "password":"jingshuai"},
+{"userName"	: "shuai", "password":"shuai"},
+{"userName"	: "aileen", "password":"aileen"}
+]
+"questions" : [
+{"question"	: "jingshuai", "answer":"jingshuai"},
+{"question"	: "shuai", "answer":"shuai"}
+]
+}
