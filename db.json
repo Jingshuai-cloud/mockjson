@@ -4,8 +4,20 @@
 {"userName"	: "shuai", "password":"shuai"},
 {"userName"	: "aileen", "password":"aileen"}
 ],
-"questions" : [
-{"question"	: "jingshuai", "answer":"jingshuai"},
-{"question"	: "shuai", "answer":"shuai"}
-]
+  "questions" : [
+       {"question": "Which of these is NOT an Australian state or territory?", 
+       "answers":["Queensland", "Victoria", "New South Wales", "Alberta"], 
+       "correct_answer": "Alberta", 
+       "incorrect_answers": ["New South Wales", "Victoria", "Queensland"]},
+
+        {"question": "The numbering system with a radix of 16 is more commonly referred to as ", 
+       "answers": ["Octal", "Hexidecimal", "Binary", "Duodecimal"], 
+       "correct_answer": "Hexidecimal", 
+       "incorrect_answers": ["Binary", "Duodecimal", "Octal"]},
+
+        {"question": "The Space Needle is located in which city?", 
+       "answers": ["Seattle", "Los Angles", "Vancouver", "Toronto"],
+       "correct_answer": "Seattle", 
+       "incorrect_answers":  ["Los Angles", "Toronto", "Vancouver"]}
+   ]
 }
