@@ -19,5 +19,49 @@
        "answers": ["Seattle", "Los Angles", "Vancouver", "Toronto"],
        "correct_answer": "Seattle", 
        "incorrect_answers":  ["Los Angles", "Toronto", "Vancouver"]}
-   ]
+   ],
+  "menus" : [
+  { coffee: "AFFOGATO", path: "/layer1", subMenu: [] },
+  {
+    coffee: "ESPRESSO",
+    path: "/",
+    subMenu: [
+      { coffee: "ESPRESSO", path: "/", subMenu: [] },
+      { coffee: "DOUBLE ESPRESSO", path: "/", subMenu: [] },
+      {
+        coffee: "MORE",
+        path: "/",
+        subMenu: [
+          { coffee: "ESPRESSO CON PANNA", path: "/", subMenu: [] },
+          { coffee: "ESPRESSO MACCHIATO", path: "/", subMenu: [] },
+          {
+            coffee: "MORE",
+            path: "/",
+            subMenu: [
+              { coffee: "ICED LATTE", path: "/", subMenu: [] },
+              { coffee: "ICED MOCHA", path: "/", subMenu: [] },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  { coffee: "AMERICANO ", path: "/layer1", subMenu: [] },
+
+  { coffee: "CAPPUCCINO ", path: "/layer1", subMenu: [] },
+
+  {
+    coffee: "CAFFÈ ",
+    path: "/",
+    subMenu: [
+      { coffee: "CAFFÈ LATTE ", path: "/layer2", subMenu: [] },
+      { coffee: "CAFFÈ MOCHA ", path: "/layer2", subMenu: [] },
+
+      { coffee: "CAFÈ AU LAIT", path: "/layer2", subMenu: [] },
+    ],
+  },
+  { coffee: "FLAT WHITE", path: "/", subMenu: [] },
+  { coffee: "Login", path: "/login", subMenu: [] },
+]
 }
