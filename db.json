@@ -21,25 +21,25 @@
        "incorrect_answers":  ["Los Angles", "Toronto", "Vancouver"]}
    ],
   "menus" : [
-  { coffee: "AFFOGATO", path: "/layer1", subMenu: [] },
+  { "coffee": "AFFOGATO", "path": "/layer1", "subMenu": [] },
   {
-    coffee: "ESPRESSO",
-    path: "/",
-    subMenu: [
-      { coffee: "ESPRESSO", path: "/", subMenu: [] },
-      { coffee: "DOUBLE ESPRESSO", path: "/", subMenu: [] },
+    "coffee": "ESPRESSO",
+    "path": "/",
+    "subMenu": [
+      { "coffee": "ESPRESSO", "path": "/layer2", "subMenu": [] },
+      { "coffee": "DOUBLE ESPRESSO", "path": "/layer2", "subMenu": [] },
       {
-        coffee: "MORE",
-        path: "/",
-        subMenu: [
-          { coffee: "ESPRESSO CON PANNA", path: "/", subMenu: [] },
-          { coffee: "ESPRESSO MACCHIATO", path: "/", subMenu: [] },
+        "coffee": "MORE",
+        "path": "/",
+        "subMenu": [
+          { "coffee": "ESPRESSO CON PANNA", "path": "/layer3", "subMenu": [] },
+          { "coffee": "ESPRESSO MACCHIATO", "path": "/layer3", "subMenu": [] },
           {
-            coffee: "MORE",
-            path: "/",
-            subMenu: [
-              { coffee: "ICED LATTE", path: "/", subMenu: [] },
-              { coffee: "ICED MOCHA", path: "/", subMenu: [] },
+            "coffee": "MORE",
+            "path": "/",
+            "subMenu": [
+              { "coffee": "ICED LATTE", "path": "/layer2", "subMenu": [] },
+              { "coffee": "ICED MOCHA", "path": "/layer2", "subMenu": [] },
             ],
           },
         ],
@@ -61,7 +61,7 @@
       { coffee: "CAFÈ AU LAIT", path: "/layer2", subMenu: [] },
     ],
   },
-  { coffee: "FLAT WHITE", path: "/", subMenu: [] },
+  { coffee: "FLAT WHITE", path: "/layer1", subMenu: [] },
   { coffee: "Login", path: "/login", subMenu: [] },
 ]
 }
