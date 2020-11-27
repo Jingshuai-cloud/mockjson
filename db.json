@@ -59,5 +59,129 @@
             "Vancouver"
          ]
       }
+   ],
+   "menus":[
+      {
+         "coffee":"AFFOGATO",
+         "path":"/layer1",
+         "subMenu":[
+            
+         ]
+      },
+      {
+         "coffee":"ESPRESSO",
+         "path":"/",
+         "subMenu":[
+            {
+               "coffee":"ESPRESSO",
+               "path":"/layer2",
+               "subMenu":[
+                  
+               ]
+            },
+            {
+               "coffee":"DOUBLE ESPRESSO",
+               "path":"/layer2",
+               "subMenu":[
+                  
+               ]
+            },
+            {
+               "coffee":"MORE",
+               "path":"/",
+               "subMenu":[
+                  {
+                     "coffee":"ESPRESSO CON PANNA",
+                     "path":"/layer3",
+                     "subMenu":[
+                        
+                     ]
+                  },
+                  {
+                     "coffee":"ESPRESSO MACCHIATO",
+                     "path":"/layer3",
+                     "subMenu":[
+                        
+                     ]
+                  },
+                  {
+                     "coffee":"MORE",
+                     "path":"/",
+                     "subMenu":[
+                        {
+                           "coffee":"ICED LATTE",
+                           "path":"/layer2",
+                           "subMenu":[
+                              
+                           ]
+                        },
+                        {
+                           "coffee":"ICED MOCHA",
+                           "path":"/layer2",
+                           "subMenu":[
+                              
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "coffee":"AMERICANO ",
+         "path":"/layer1",
+         "subMenu":[
+            
+         ]
+      },
+      {
+         "coffee":"CAPPUCCINO ",
+         "path":"/layer1",
+         "subMenu":[
+            
+         ]
+      },
+      {
+         "coffee":"CAFFÈ ",
+         "path":"/",
+         "subMenu":[
+            {
+               "coffee":"CAFFÈ LATTE ",
+               "path":"/layer2",
+               "subMenu":[
+                  
+               ]
+            },
+            {
+               "coffee":"CAFFÈ MOCHA ",
+               "path":"/layer2",
+               "subMenu":[
+                  
+               ]
+            },
+            {
+               "coffee":"CAFÈ AU LAIT",
+               "path":"/layer2",
+               "subMenu":[
+                  
+               ]
+            }
+         ]
+      },
+      {
+         "coffee":"FLAT WHITE",
+         "path":"/layer1",
+         "subMenu":[
+            
+         ]
+      },
+      {
+         "coffee":"Login",
+         "path":"/login",
+         "subMenu":[
+            
+         ]
+      }
    ]
 }
