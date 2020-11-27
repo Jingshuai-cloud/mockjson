@@ -47,7 +47,7 @@
     ],
   },
 
-  { "coffee": "AMERICANO ", path: "/layer1", "subMenu": [] },
+  { "coffee": "AMERICANO ", "path": "/layer1", "subMenu": [] },
 
   { "coffee": "CAPPUCCINO ", "path": "/layer1", "subMenu": [] },
 
@@ -55,7 +55,7 @@
     "coffee": "CAFFÈ ",
     "path": "/",
     "subMenu": [
-      { "coffee": "CAFFÈ LATTE ", path: "/layer2", "subMenu": [] },
+      { "coffee": "CAFFÈ LATTE ", "path": "/layer2", "subMenu": [] },
       { "coffee": "CAFFÈ MOCHA ", "path": "/layer2", "subMenu": [] },
 
       { "coffee": "CAFÈ AU LAIT", "path": "/layer2", "subMenu": [] },
